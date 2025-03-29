@@ -1,7 +1,6 @@
 /*
 
-frida -p (ps StreetsOfRogue).id -l aa.py.js
-frida -f StreetsOfRogue.exe -l ff.js
+frida -f StreetsOfRogue.exe -l enableDebug.js
 
 */
 const MONO_DLL = "mono-2.0-bdwgc.dll";
